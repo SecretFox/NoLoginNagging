@@ -1,4 +1,3 @@
 # NoLoginNagging
-Disables SAF collectors edition pop-up when you login.  
-Closes the news page and opens Daily-login rewards when you login.  
-News and SAF collectors edition can still be accessed from the topbar.
+Closes SAF collectors edition pop-up when you login.  
+Switches to login rewards page whenever daily login rewards window is opened, news page can still be accessed from the back arrow.
