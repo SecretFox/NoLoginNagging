@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\NoLoginNagging.swf" />
+    <movie path="bin\NoLoginNews.swf" />
     <movie fps="30" />
     <movie width="1000" />
     <movie height="800" />
