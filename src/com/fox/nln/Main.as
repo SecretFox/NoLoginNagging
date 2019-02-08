@@ -9,10 +9,11 @@ class com.fox.nln.Main {
 		swfRoot.onLoad = function() {s_app.onLoad()};
 		swfRoot.onUnload = function() {s_app.onUnload()};
 	}
-	public function Main() { }
-	public function onLoad() {
+	public function Main() {
 		LoginRewardsDval = DistributedValue.Create("dailyLogin_window");
 		PatronBundle = DistributedValue.Create("12MonthBundlePurchase_window");
+	}
+	public function onLoad() {
 		PatronBundle.SignalChanged.Connect(ClosePatron, this);
 		LoginRewardsDval.SignalChanged.Connect(CloseNewsPage, this);
 		CloseNewsPage();
